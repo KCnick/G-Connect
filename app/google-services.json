@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450274120709",
+    "firebase_url": "https://g-connect-d5023.firebaseio.com",
+    "project_id": "g-connect-d5023",
+    "storage_bucket": "g-connect-d5023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450274120709:android:70bc0a3225f9a5f1",
+        "android_client_info": {
+          "package_name": "com.belinix.maritim.g_connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450274120709-ulvbt09leds96tfhirbnd18ss29a0etv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.belinix.maritim.g_connect",
+            "certificate_hash": "6e2784663dc56a7635019f20950e911e57b392cf"
+          }
+        },
+        {
+          "client_id": "450274120709-mqvibp2n82orc1pa2dis4f8u5b13jhu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTiv11j1PYze-WaoY9etYB4sQIVfrfTW0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450274120709-mqvibp2n82orc1pa2dis4f8u5b13jhu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
