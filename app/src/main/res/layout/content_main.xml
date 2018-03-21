@@ -13,4 +13,34 @@
     tools:context="com.belinix.maritim.g_connect.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <com.google.android.gms.maps.MapView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/mapView" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark"
+        android:layout_marginTop="26dp"
+        android:id="@+id/imageButton2"
+        android:layout_marginLeft="41dp"
+        android:onClick="parcels"
+        android:layout_marginStart="41dp"
+        android:layout_below="@+id/mapView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Parcels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_alignEnd="@+id/imageButton2"
+        android:id="@+id/textView2" />
+
 </RelativeLayout>
